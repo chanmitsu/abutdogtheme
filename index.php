@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/reset.css">
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css">
   <title>About Dog</title>
 </head>
 <body>
@@ -21,7 +21,7 @@
       </nav>
     </header>
     <div>
-      <img src="img/dog.jpg" alt="犬" class="top-image">
+      <img src="<?php echo get_template_directory_uri(); ?>/img/dog.jpg" alt="犬" class="top-image">
     </div>
 
     <section>
@@ -32,7 +32,7 @@
         
 
            <li class="article">
-             <img  class="article-img" src="img/dog.jpg" alt="">
+             <img  class="article-img" src="<?php echo get_template_directory_uri(); ?>/img/dog.jpg" alt="">
             
                <p class="article-content">ここに記事の内容が表示されます。
                  <br>ここに記事の内容が表示されます。</p>
@@ -41,14 +41,14 @@
            </li>
 
            <li class="article">
-             <img  class="article-img" src="img/dog.jpg" alt="">
+             <img  class="article-img" src="<?php echo get_template_directory_uri(); ?>/img/dog.jpg" alt="">
              <p class="article-content">ここに記事の内容が表示されます。
               <br>ここに記事の内容が表示されます。</p>
              <p class="read-more"> <a href="">Read More</a></p>
            </li>
 
           <li class="article">
-             <img  class="article-img" src="img/dog.jpg" alt="">
+             <img  class="article-img" src="<?php echo get_template_directory_uri(); ?>/img/dog.jpg" alt="">
              <p class="article-content">ここに記事の内容が表示されます。
               <br>ここに記事の内容が表示されます。</p>
              <p class="read-more"> <a href="">Read More</a></p>
@@ -57,21 +57,21 @@
        
 
           <li class="article">
-            <img  class="article-img" src="img/dog.jpg" alt="">
+            <img  class="article-img" src="<?php echo get_template_directory_uri(); ?>/img/dog.jpg" alt="">
             <p class="article-content">ここに記事の内容が表示されます。
               <br>ここに記事の内容が表示されます。</p>
             <p class="read-more"> <a href="">Read More</a></p>
           </li>
 
           <li class="article">
-            <img  class="article-img" src="img/dog.jpg" alt="">
+            <img  class="article-img" src="<?php echo get_template_directory_uri(); ?>/img/dog.jpg" alt="">
             <p class="article-content">ここに記事の内容が表示されます。
               <br>ここに記事の内容が表示されます。</p>
             <p class="read-more"> <a href="">Read More</a></p>
           </li>
 
          <li class="article">
-            <img  class="article-img" src="img/dog.jpg" alt="">
+            <img  class="article-img" src="<?php echo get_template_directory_uri(); ?>/img/dog.jpg" alt="">
             <p class="article-content">ここに記事の内容が表示されます。
               <br>ここに記事の内容が表示されます。</p>
             <p class="read-more"> <a href="">Read More</a></p>
@@ -82,6 +82,27 @@
 
       </ul>
     </section>
+
+    <section>
+
+     <h2 class="cotact-title">Contact</h2>
+
+     <form action="">
+
+      <input type="text" placeholder="お名前" class="contact-text">
+      <input type="text" placeholder="メールアドレス" class="contact-text">
+      <textarea name="t_name1" placeholder="お問い合わせ内容" class="contact-text"></textarea>
+
+       <button>送信</button>
+
+     </form>
+
+    </section>
+
+    <footer>
+      <small>@ 2019 ALL RIGHT RESERVED</small>
+    </footer>
+
   </div>
 </body>
 </html>
