@@ -87,7 +87,7 @@
 
      <h2 class="cotact-title">Contact</h2>
 
-     <form action="">
+     <form action="" class="cotact-main">
 
       <input type="text" placeholder="お名前" class="contact-text">
       <input type="text" placeholder="メールアドレス" class="contact-text">

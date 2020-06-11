@@ -136,3 +136,15 @@ footer{
 small{
   color: white;
 }
+
+
+
+@media screen and (max-width:600px){
+  .cotact-main{
+      width: 100%;
+  }
+
+  button{
+    width: 100%;
+  }
+}
