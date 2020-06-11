@@ -1,6 +1,10 @@
 <?php get_header(); ?>
 
     <div>
+    <?php if ( get_header_image() ) : ?>
+	    <img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="">
+    <?php endif; ?>
+
       <img src="<?php echo get_template_directory_uri(); ?>/img/dog.jpg" alt="犬" class="top-image">
     </div>
 
