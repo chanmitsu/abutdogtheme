@@ -148,3 +148,19 @@ small{
     width: 100%;
   }
 }
+
+.main-content{
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 25px;
+  line-height: 60px;
+}
+
+.main-title{
+  font-size: 30px;
+  color: rgb(201, 191, 1);
+}
+
+.main-box{
+  min-height: 400px;
+}
