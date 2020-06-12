@@ -13,11 +13,12 @@
   <div class="container">
     <header>
       <h1>About Dog</h1>
-      <nav>
-        <ul class="header-right">
-          <li>Top</li>
-          <li>Latest</li>
-          <li>Contact</li>
-        </ul>
+      <nav class="menu">
+        <?php wp_nav_menu( array(
+            'theme_location'=>'mainmenu', 
+            'container'     =>'', 
+            'menu_class'    =>'',
+            'items_wrap'    =>'<ul id="main-nav">%3$s</ul>'));
+        ?>
       </nav>
     </header>

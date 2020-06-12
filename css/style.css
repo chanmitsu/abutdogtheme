@@ -164,3 +164,28 @@ small{
 .main-box{
   min-height: 400px;
 }
+
+#main-nav {
+  display: flex;
+}
+
+#main-nav li a{
+  font-size: 20px;
+  text-decoration: none;
+  color: #707070;
+  margin-left: 30px;
+}
+
+/* #menu-item-24  a{
+  margin-right: 27px;
+  margin-left: 27px;
+  font-size: 20px;
+  text-decoration: none;
+  color: #707070;
+}
+
+#menu-item-23  a{
+  font-size: 20px;
+  text-decoration: none;
+  color: #707070;
+} */
