@@ -148,3 +148,27 @@ small{
     width: 100%;
   }
 }
+
+#main-nav {
+  display: flex;
+}
+
+#menu-item-25  a{
+  font-size: 20px;
+  text-decoration: none;
+  color: #707070;
+}
+
+#menu-item-24  a{
+  margin-right: 27px;
+  margin-left: 27px;
+  font-size: 20px;
+  text-decoration: none;
+  color: #707070;
+}
+
+#menu-item-23  a{
+  font-size: 20px;
+  text-decoration: none;
+  color: #707070;
+}

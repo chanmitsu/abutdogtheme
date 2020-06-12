@@ -13,7 +13,7 @@
   <div class="container">
     <header>
       <h1>About Dog</h1>
-      <nav>
+      <nav class="menu">
         <?php wp_nav_menu( array(
             'theme_location'=>'mainmenu', 
             'container'     =>'', 
