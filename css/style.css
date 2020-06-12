@@ -149,17 +149,34 @@ small{
   }
 }
 
+.main-content{
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 25px;
+  line-height: 60px;
+}
+
+.main-title{
+  font-size: 30px;
+  color: rgb(201, 191, 1);
+}
+
+.main-box{
+  min-height: 400px;
+}
+
 #main-nav {
   display: flex;
 }
 
-#menu-item-25  a{
+#main-nav li a{
   font-size: 20px;
   text-decoration: none;
   color: #707070;
+  margin-left: 30px;
 }
 
-#menu-item-24  a{
+/* #menu-item-24  a{
   margin-right: 27px;
   margin-left: 27px;
   font-size: 20px;
@@ -171,4 +188,4 @@ small{
   font-size: 20px;
   text-decoration: none;
   color: #707070;
-}
+} */
